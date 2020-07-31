@@ -51,7 +51,7 @@ enum    {
         // Actual time will be a little longer because have to
         // add measurement and broadcast time, but we attempt
         // to compensate for the gross effects below.
-        CATCFG_T_CYCLE = 6 * 60,        // every 6 minutes
+        CATCFG_T_CYCLE = 1 * 60,        // every 1 minute
         CATCFG_T_CYCLE_TEST = 30,       // every 30 seconds
         CATCFG_T_CYCLE_INITIAL = 30,    // every 30 seconds initially
         CATCFG_INTERVAL_COUNT_INITIAL = 10,     // repeat for 5 minutes
